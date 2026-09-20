@@ -1,0 +1,59 @@
+{
+    "name": "mrnewport/laravel-site-credit",
+    "description": "A shared accessible site attribution for Blade and Vue, preserving each site\u2019s own footer.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Newport",
+            "homepage": "https://matthewnewport.com"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "blade",
+        "vue",
+        "site-credit",
+        "footer"
+    ],
+    "homepage": "https://github.com/MrNewport/laravel-site-credit",
+    "support": {
+        "issues": "https://github.com/MrNewport/laravel-site-credit/issues",
+        "source": "https://github.com/MrNewport/laravel-site-credit"
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/contracts": "^12.0 || ^13.0",
+        "illuminate/support": "^12.0 || ^13.0",
+        "illuminate/view": "^12.0 || ^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0 || ^11.0",
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MrNewport\\SiteCredit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MrNewport\\SiteCredit\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MrNewport\\SiteCredit\\SiteCreditServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

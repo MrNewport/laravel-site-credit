@@ -1,0 +1,13 @@
+{
+  "name": "@mrnewport/laravel-site-credit-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/js/*.test.mjs"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.5.0",
+    "@vue/server-renderer": "^3.5.0",
+    "vue": "^3.5.0"
+  }
+}

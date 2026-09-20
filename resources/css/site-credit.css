@@ -1,0 +1,52 @@
+/* Framework independent. Import once after your site's base/footer styles. */
+.bwd-site-credit {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: var(--site-credit-margin, 1rem 0 0);
+    padding: var(--site-credit-padding, 0);
+    color: var(--site-credit-color, inherit);
+    background: var(--site-credit-background, transparent);
+    font: inherit;
+    font-size: var(--site-credit-font-size, 0.8125rem);
+    font-weight: 400;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: var(--site-credit-align, inherit);
+    text-transform: none;
+    overflow-wrap: anywhere;
+}
+.bwd-site-credit[data-theme="light"] {
+    color: var(--site-credit-color, #26352e);
+    background: var(--site-credit-background, #ffffff);
+}
+.bwd-site-credit[data-theme="dark"] {
+    color: var(--site-credit-color, #edf3ed);
+    background: var(--site-credit-background, #17231c);
+}
+.bwd-site-credit .bwd-site-credit__label {
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+    text-transform: none;
+}
+.bwd-site-credit .bwd-site-credit__link {
+    display: inline;
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+    text-transform: none;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+}
+.bwd-site-credit .bwd-site-credit__link:hover {
+    text-decoration-thickness: 2px;
+}
+.bwd-site-credit .bwd-site-credit__link:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+    border-radius: 2px;
+}
