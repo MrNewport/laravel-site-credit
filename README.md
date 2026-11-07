@@ -2,6 +2,8 @@
 
 An escaped configurable attribution paragraph/link for Blade and optional Vue3, with shared framework-independent CSS. Place it after the site’s own copyright and legal information.
 
+**[Interactive workshop](https://matthewnewport.com/packages/laravel-site-credit/lab)** — Try guided examples in your browser.
+
 ```sh
 composer require mrnewport/laravel-site-credit:^1.0
 ```
